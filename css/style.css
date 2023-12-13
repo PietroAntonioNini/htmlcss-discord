@@ -157,11 +157,15 @@ main section {
     padding: 30px;
 }
 
-main section div {
+main section > * {
     display: flex;
-    max-width: 830px;
+    max-width: 814px;
     gap: 60px;
     margin: auto;    
+}
+
+main section div .img {
+    padding-bottom: 50px;
 }
 
 main section div .img img{
@@ -169,18 +173,22 @@ main section div .img img{
 }
 
 main section div .element {
-
     flex-grow: 1;
-    flex-direction: column;
-    gap: 15px;
-
-    padding: 50px 10px 0px 35px;
 }
 
 main section div .element h2 {
+
+    padding: 20px 20px 20px 0;
+
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+main section div .element p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 main .gray {
