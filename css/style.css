@@ -31,7 +31,7 @@ header{
     width: 120px;
 }
 
-nav .container-nav #logo img {
+#logo img {
     width: 100px;
 }
 
@@ -250,11 +250,13 @@ main .gray #block-green div {
 
 /* Inizio Footer */
 
-footer section:first-child {
-
-    padding: 5px 0 20px 0;
-
+footer {
     background-color: #23272A;
+}
+
+footer section:first-child {
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 footer section .container-footer {
@@ -263,43 +265,98 @@ footer section .container-footer {
 
     display: flex;
 
-    max-width: 700px;
+    max-width: 850px;
     margin: auto;
 }
 
+/* Inizio Prima Colonna */
+
 footer section .container-footer #main-link {
-
-    width: 200px;
-
-    border: 0.5px dashed black;
-    background-color: #F08080;
+    width: 300px;
+    padding-right: 50px;
 }
 
+footer section .container-footer #main-link h3 {
+
+    padding-bottom: 20px;
+
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+    color: #7289DA;
+}
+
+footer section .container-footer #main-link #infobox #language img {
+    width: 20px;
+}
+
+footer section .container-footer #main-link #infobox #language span {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+footer section .container-footer #main-link #infobox #language #curtain {
+    width: 10px;
+    filter: invert(1);
+}
+
+footer section .container-footer #main-link #infobox #social {
+    display: flex;
+    width: 20px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+footer section .container-footer #main-link #infobox #social img {
+    filter: invert(1);
+}
+
+/* Fine Prima Colonna */
+
+/* Inizio Colonne Secondarie */
+
 footer section .container-footer #various-link {
-    
     display: flex;
     flex-grow: 1;
-
-    border: 0.5px dashed black;
-    background-color: #20B2AA;
+    gap: 30px;
 }
 
 footer section .container-footer #various-link div {
 
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
 
-    border: 0.5px dashed white;
+    line-height: 25px;
+
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
 }
 
+footer section .container-footer #various-link h4 {
+    color: #7289DA
+}
+
+/* Fine Colonne Secondarie */
+
 hr {
-    border: 0.1px solid gray;
+    width: 900px;
+    margin: auto;
+
+    height: 0.5px;
+    background-color: #7289DA;
+    border: none;
+
 }
 
 footer #last-section {
-
     padding-top: 20px;
-
-    background-color: #23272A;
+    padding-bottom: 100px
 }
 
 footer #last-section #end-page {
@@ -309,10 +366,8 @@ footer #last-section #end-page {
     align-items: center;
 
     height: 50px;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
-
-    background-color: #7FFFD4;
 }
 
 footer #last-section #end-page div {
@@ -320,10 +375,20 @@ footer #last-section #end-page div {
     padding: 5px;
 
     font-size: small;
-    font-family: sans-serif;
+    font-family: sans-serif;    
+}
 
-    border: 0.5px dashed black;
-    background-color: #FFB6C1;
+footer #last-section #end-page #login input {
+    padding: 7px 10px;
+
+    border: 0px;
+    border-radius: 40px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+    background-color: #8EA1E1;
 }
 
 /* Fine Footer */
