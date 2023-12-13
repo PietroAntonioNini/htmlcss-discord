@@ -158,29 +158,29 @@ main section {
 }
 
 main section div {
-
-    height: 250px;
-    /* test*/
-
     display: flex;
-    max-width: 700px;
-    margin: auto;
-    
-    
+    max-width: 830px;
+    gap: 60px;
+    margin: auto;    
 }
 
-main section div .img {
-    width: 400px;
-
-    border: 0.5px dashed black;
-    background-color: #1E90FF;
+main section div .img img{
+    width: 470px;
 }
 
 main section div .element {
-    flex-grow: 1;
 
-    border: 0.5px dashed black;
-    background-color: #FFC0CB;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 50px 10px 0px 35px;
+}
+
+main section div .element h2 {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 main .gray {
