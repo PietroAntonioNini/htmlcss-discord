@@ -127,9 +127,8 @@ header div .button div {
     background-color: white;
 }
 
-header div .button div span {
+.arrow {
     padding-right: 7px;
-    font-size: 20px;
 }
 
 header div .button input {
@@ -196,11 +195,55 @@ main .gray {
 }
 
 main .gray #block-green {
-    height: 500px;
-    /* Test */
 
-    border: 0.5px dashed black;
-    background-color: #228B22;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    text-align: center;
+}
+
+main .gray #block-green h2 {
+    padding: 20px;
+
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+main .gray #block-green p {
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+main .gray #block-green h3 {
+
+    width: 360px;
+    padding: 20px;
+    margin: auto;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    background-image: url(/img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main .gray #block-green div {
+
+    width: 200px;
+    padding: 10px 20px;
+    margin: auto;
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    color: white;
+    border-radius: 40px;
+    background-color: #8EA1E1;
 }
 
 /* Fine Main */
