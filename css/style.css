@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Inizio Nav */
+
+nav{
+    background-color: #ADD8E6;
+}
+
+.container-nav {
+    display: flex;
+
+    font-size: small;
+    font-family: sans-serif;
+
+    max-width: 700px;
+    margin: auto;
+    padding: 8px 0;
+
+}
+
+.container-nav #logo, .container-nav #login {
+    
+    width: 120px;
+
+    padding: 5px;
+
+    border: 0.5px dashed black;
+    background-color: #DAA520;
+}
+
+.container-nav #login {
+    display: flex;
+    justify-content: end;
+}
+
+.container-nav #link {
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 5px;
+
+    border: 0.5px dashed black;
+    background-color: #DAA520;
+}
+
+.container-nav #link a {
+    text-decoration: none;
+}
+
+/* Fine Nav */
+
+/* Inizio Header */
+
+header {
+
+    padding: 30px;
+
+    background-color: #00008B;
+}
+
+header div {
+    
+    height: 200px;
+    /* test*/
+
+    max-width: 550px;
+    margin: auto;
+
+    border: 0.5px dashed black;
+    background-color: #EE82EE;
+}
+
+/* Fine Header */
+
+/* Inizio Main */
+
+main section {
+    padding: 30px;
+}
+
+main section div {
+
+    height: 250px;
+    /* test*/
+
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    
+    
+}
+
+main section div .img {
+    width: 400px;
+
+    border: 0.5px dashed black;
+    background-color: #1E90FF;
+}
+
+main section div .element {
+    flex-grow: 1;
+
+    border: 0.5px dashed black;
+    background-color: #FFC0CB;
+}
+
+main .gray {
+    background-color: #D3D3D3;
+}
+
+main .gray #block-green {
+    height: 500px;
+    /* Test */
+
+    border: 0.5px dashed black;
+    background-color: #228B22;
+}
+
+/* Fine Main */
+
+/* Inizio Footer */
+
+footer section:first-child {
+
+    padding: 5px 0 20px 0;
+
+    background-color: #23272A;
+}
+
+footer section .container-footer {
+    height: 300px;
+    /* test */
+
+    display: flex;
+
+    max-width: 700px;
+    margin: auto;
+}
+
+footer section .container-footer #main-link {
+
+    width: 200px;
+
+    border: 0.5px dashed black;
+    background-color: #F08080;
+}
+
+footer section .container-footer #various-link {
+    
+    display: flex;
+    flex-grow: 1;
+
+    border: 0.5px dashed black;
+    background-color: #20B2AA;
+}
+
+footer section .container-footer #various-link div {
+
+    flex-grow: 1;
+
+    border: 0.5px dashed white;
+}
+
+hr {
+    border: 0.1px solid gray;
+}
+
+footer #last-section {
+
+    padding-top: 20px;
+
+    background-color: #23272A;
+}
+
+footer #last-section #end-page {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+    max-width: 700px;
+    margin: auto;
+
+    background-color: #7FFFD4;
+}
+
+footer #last-section #end-page div {
+
+    padding: 5px;
+
+    font-size: small;
+    font-family: sans-serif;
+
+    border: 0.5px dashed black;
+    background-color: #FFB6C1;
+}
+
+/* Fine Footer */
