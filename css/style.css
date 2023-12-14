@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+/* FONTS */
+
+@font-face {
+    font-family: 'whitney bold';
+    src: url(../fonts/whitneybold.otf);
+}
+
+@font-face {
+    font-family: 'whitney semibold';
+    src: url(../fonts/whitneysemibold.otf);
+}
+
+@font-face {
+    font-family: 'whitney medium';
+    src: url(../fonts/whitneymedium.otf);
+}
+
+/* FINE FONTS */
+
 /* Inizio Nav */
 nav {
     background-color: #2B5EE7;
@@ -18,7 +37,7 @@ header{
     display: flex;
 
     font-size: small;
-    font-family: sans-serif;
+    font-family: 'whitney semibold', sans-serif;
 
     max-width: 900px;
     margin: auto;
@@ -48,8 +67,6 @@ header{
 
 .container-nav #link a {
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     text-decoration: none;
     color: white;
 }
@@ -64,11 +81,10 @@ header{
 nav .container-nav #login input {
     padding: 7px 10px;
 
+    font-family: 'whitney semibold', sans-serif;
     border: 0px;
     border-radius: 40px;
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
 
 /* Fine Nav */
@@ -91,16 +107,15 @@ header div h1 {
 
     text-align: center;
     font-size: 45px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: 'whitney bold';
     color: white;
 }
 
 header div p {
-    padding-bottom: 20px;
+    padding: 0 15px 15px 20px;
 
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney semibold';
     font-weight: 400;
     line-height: 25px;
     color: white;
@@ -121,7 +136,7 @@ header div .button div {
     margin: 0;
     padding: 10px 20px;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney semibold', sans-serif;
     font-weight: 400;
 
     border-radius: 40px;
@@ -143,7 +158,7 @@ header div .button input {
 header div .button .open-browser {
 
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney semibold', sans-serif;
     font-weight: 400;
     color: white;
     background-color: #23272A;
@@ -196,12 +211,11 @@ main section div .element h2 {
     padding: 20px 20px 20px 0;
 
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'whitney bold', sans-serif;
 }
 
 main section div .element p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney medium', sans-serif;
     font-weight: 400;
     line-height: 25px;
 }
@@ -227,13 +241,12 @@ main .gray #block-green h2 {
     padding: 20px;
 
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: 'whitney bold', sans-serif;
 }
 
 main .gray #block-green p {
     padding: 0 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney medium', sans-serif;
     font-size: 14px;
 }
 
@@ -243,8 +256,7 @@ main .gray #block-green h3 {
     padding: 20px;
     margin: auto;
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-family: 'whitney bold', sans-serif;
 
     background-image: url(/img/stars.svg);
     background-size: contain;
@@ -258,8 +270,7 @@ main .gray #block-green div {
     margin: auto;
 
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'whitney medium', sans-serif;
 
     color: white;
     border-radius: 40px;
@@ -300,9 +311,8 @@ footer section .container-footer #main-link h3 {
 
     padding-bottom: 20px;
 
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-size: 30px;
+    font-family: 'whitney bold', sans-serif;
 
     color: #7289DA;
 }
@@ -313,7 +323,7 @@ footer section .container-footer #main-link #infobox #language img {
 
 footer section .container-footer #main-link #infobox #language span {
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney medium', sans-serif;
     color: white;
 }
 
@@ -352,7 +362,7 @@ footer section .container-footer #various-link div {
     line-height: 25px;
 
     font-size: small;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'whitney medium', sans-serif;
     font-weight: 400;
 
     color: white;
@@ -390,22 +400,13 @@ footer #last-section #end-page {
     margin: auto;
 }
 
-footer #last-section #end-page div {
-
-    padding: 5px;
-
-    font-size: small;
-    font-family: sans-serif;    
-}
-
 footer #last-section #end-page #login input {
     padding: 7px 10px;
 
     border: 0px;
     border-radius: 40px;
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'whitney medium', sans-serif;
 
     color: white;
     background-color: #8EA1E1;
