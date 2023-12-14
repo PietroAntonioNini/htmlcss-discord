@@ -76,7 +76,8 @@ nav .container-nav #login input {
 /* Inizio Header */
 
 header {
-    padding: 50px;
+    padding: 70px;
+    margin-bottom: 80px;
 }
 
 header div {
@@ -152,8 +153,9 @@ header div .button .open-browser {
 
 /* Inizio Main */
 
-main section {
-    padding: 30px;
+main .white{
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 main section > * {
@@ -161,6 +163,20 @@ main section > * {
     max-width: 814px;
     gap: 60px;
     margin: auto;    
+}
+
+main hr {
+    width: 100%;
+    height: 60px;
+
+    background-color: white;
+    background-image: url(/img/wave.svg);
+
+    filter: opacity(0.1);
+}
+
+main #wave-rotate {
+    transform: rotate(180deg);
 }
 
 main section div .img {
@@ -191,7 +207,11 @@ main section div .element p {
 }
 
 main .gray {
-    background-color: #D3D3D3;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-color: #e5e5e5;
 }
 
 main .gray #block-green {
